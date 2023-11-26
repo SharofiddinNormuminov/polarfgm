@@ -1,0 +1,678 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Hind+Madurai:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  padding-top: 2.5rem;
+  background: #f9f4f6;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-left img {
+  border-radius: 50%;
+}
+
+.navbar .nav-right {
+  display: flex;
+  align-items: center;
+  gap: 17.2rem;
+}
+
+.nav-right .nav-links {
+  display: flex;
+  gap: 4rem;
+}
+
+.nav-links li a {
+  color: #150101;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.nav-links li a:hover {
+  color: #d23166;
+}
+
+.btn-buy {
+  color: #fafafa;
+  font-family: "Hind Madurai", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: normal;
+
+  border-radius: 5px;
+  background: #d23166;
+
+  padding: 1.3rem 5rem;
+  border: none;
+}
+
+.hero {
+  margin-top: 19.6rem;
+  padding-bottom: 21.3rem;
+  display: flex;
+}
+
+.hero-content h4 {
+  color: #0f0101;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1.4px;
+}
+
+.hero-content h1 {
+  max-width: 62rem;
+  font-family: "Fredoka", sans-serif;
+
+  color: #0f0101;
+  font-size: 5.7rem;
+  font-weight: 700;
+  line-height: 120.5%; /* 69.083px */
+
+  margin-bottom: 3.5rem;
+}
+
+h1 span {
+  font-family: "Fredoka", sans-serif;
+  color: #d23166;
+}
+
+.hero-content p {
+  width: 52rem;
+
+  color: #0f0101;
+  font-family: "Hind Madurai", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 27px; /* 150% */
+
+  margin-bottom: 5rem;
+
+  opacity: 0.6;
+}
+
+.hero-img {
+  position: relative;
+}
+
+.hero-img img {
+  position: absolute;
+}
+
+.hero-img img:first-child {
+  width: 597px;
+  height: 597px;
+  top: -15rem;
+  left: 9rem;
+  z-index: 2;
+}
+
+.hero-img img:nth-child(2) {
+  width: 365px;
+  height: 353px;
+  bottom: -10rem;
+  left: 20rem;
+  z-index: 0;
+}
+
+.hero-img img:nth-child(3) {
+  width: 173px;
+  height: 15px;
+  bottom: -12rem;
+  left: 30rem;
+}
+
+.hero-img img:last-child {
+  width: 851.859px;
+  height: 548.104px;
+  transform: rotate(4.793deg);
+  top: 1rem;
+  left: -8rem;
+  z-index: 3;
+}
+
+.orders {
+  padding: 10rem 0 10rem 0;
+  display: flex;
+  gap: 4rem;
+}
+
+.orders li {
+  border-radius: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+
+  background: #fff;
+  text-align: center;
+
+  padding: 3rem 2.6rem;
+}
+
+.orders li:hover {
+  background-color: rgb(160, 245, 216);
+}
+
+.orders li h3 {
+  color: #000;
+  font-family: "Hind Madurai", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: normal;
+  margin-top: 2.9rem;
+  margin-bottom: 9px;
+}
+
+.orders li p {
+  width: 19.8rem;
+
+  color: #000;
+  text-align: center;
+  font-family: "Hind Madurai", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: normal;
+
+  opacity: 0.6;
+}
+
+.brownSugarOatmea-bgcolor {
+  background: #f8edf0;
+}
+
+.brownSugarOatmea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brownSugarOatmea__content h2 {
+  width: 34.9rem;
+  color: #150101;
+  font-family: "Hind Madurai", sans-serif;
+  font-size: 4.42rem;
+  font-weight: 600;
+  line-height: 110.5%; /* 48.841px */
+  margin-bottom: 1.6rem;
+}
+
+.brownSugarOatmea__content p {
+  width: 44.2rem;
+  color: #150101;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+
+  opacity: 0.6;
+  margin-bottom: 3rem;
+}
+
+.btn {
+  color: #fafafa;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: normal;
+
+  border-radius: 5px;
+  background: #d64374;
+
+  padding: 1.5rem 5.5rem 1.5rem 4.5rem;
+  border: none;
+}
+
+.ourProduct {
+  padding-top: 13.7rem;
+  padding-bottom: 14.9rem;
+  text-align: center;
+}
+
+.ourProduct h2 {
+  color: #150101;
+  font-family: "Hind Madurai", sans-serif;
+  font-size: 4.42rem;
+  font-weight: 600;
+  line-height: normal;
+
+  margin-bottom: 6.4rem;
+}
+
+.ourProduct .ourProduct__links {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.ourProduct__links .ourProduct__link a {
+  color: #000;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: normal;
+
+  opacity: 0.6;
+}
+
+.ourProduct__links .ourProduct__link a:hover {
+  color: #000;
+  border-bottom: 4px solid #d64374;
+  opacity: unset;
+}
+
+.upr {
+  text-transform: uppercase;
+}
+
+.product {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product h3 {
+  color: #000;
+  font-family: "Hind Madurai", sans-serif;
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 1.1rem;
+}
+
+.product p {
+  width: 454px;
+
+  color: #000;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+
+  opacity: 0.7;
+  margin-bottom: 2.8rem;
+}
+
+.product h5 {
+  color: #000;
+  font-family: "Hind Madurai", sans-serif;
+  font-size: 2.6rem;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 1.6rem;
+}
+
+.product h5 span {
+  color: #000;
+  font-family: "Hind Madurai", sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: strikethrough;
+
+  opacity: 0.7;
+
+  text-decoration: line-through;
+}
+
+.brownBread {
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+.brownBread .brownBread-content {
+  text-align: left;
+}
+
+.cayenneChocolate {
+  flex-direction: row-reverse;
+  margin-bottom: 3rem;
+}
+
+.cayenneChocolate .brownBread-content {
+  text-align: right;
+}
+
+.sweetCorn {
+  margin-bottom: 11.2rem;
+}
+
+.sweetCorn .brownBread-content {
+  text-align: left;
+}
+
+.adele {
+  flex-direction: row-reverse;
+}
+
+.adele .brownBread-content {
+  text-align: left;
+}
+
+.adele-prof {
+  display: flex;
+  align-items: center;
+  gap: 2.1rem;
+  margin-bottom: 2.6rem;
+}
+
+.adele-prof .adele-name h3 {
+  margin-bottom: 5px;
+}
+
+.adele-prof .adele-name span {
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: normal;
+  opacity: 0.7;
+}
+
+.pi {
+  display: flex;
+  gap: 1.2rem;
+  align-items: baseline;
+}
+
+.imageReplacement {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.imageReplacement img {
+  border-radius: 50%;
+}
+
+.imageReplacement img:hover {
+  border: 1px #d64374 solid;
+}
+
+.imageReplacement i {
+  color: #d64374;
+  font-size: 2.5rem;
+  opacity: 0.5;
+}
+
+.imageReplacement i:hover {
+  opacity: 1;
+}
+
+.placingAnOrder-bgcolor {
+  background: #f8edf0;
+}
+
+.placingAnOrder {
+  display: flex;
+  gap: 50rem;
+  padding-top: 9rem;
+  padding-bottom: 15rem;
+}
+
+.placingAnOrder__img {
+  position: relative;
+}
+
+.placingAnOrder__img img {
+  position: absolute;
+  top: -3rem;
+  border-radius: 28px;
+}
+
+.placingAnOrder__content h2 {
+  color: #000;
+  font-size: 4.42rem;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 2rem;
+}
+
+.placingAnOrder__content p {
+  width: 60.7rem;
+
+  color: #0f0101;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.18px;
+
+  margin-bottom: 3rem;
+}
+
+.placingAnOrder__content h4 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  color: #000;
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: normal;
+
+  margin-bottom: 2rem;
+}
+
+.placingAnOrder__content h4 svg {
+  background-color: #fff;
+  padding: 5px;
+  width: 3rem;
+  height: 3rem;
+
+  border-radius: 5px;
+}
+
+.placingAnOrder__content h4 img {
+  width: 3rem;
+  height: 3rem;
+
+  border-radius: 5px;
+}
+
+.inProgram {
+  display: flex;
+  gap: 2rem;
+}
+
+.sendaQuestion {
+  padding-top: 19.1rem;
+  padding-bottom: 12.9rem;
+}
+
+.sendaQuestion h2 {
+  width: 52.2rem;
+  color: #000;
+  text-align: center;
+  font-size: 4.4rem;
+  font-weight: 500;
+  line-height: normal;
+
+  margin: 0 auto 2.8rem;
+}
+
+.input-send {
+  text-align: center;
+}
+
+.input-send input {
+  width: 76rem;
+  padding: 3.3rem 0 2.9rem 3rem;
+  border: none;
+
+  border-radius: 5px;
+  background: #fafafa;
+
+  color: #0f0000;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.input-send button {
+  transform: translateX(-12rem);
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: normal;
+  padding: 2.8rem 3.1rem 2.8rem 4.6rem;
+  border: none;
+
+  border-radius: 5px;
+  background: #d64374;
+}
+
+footer {
+  background: #0a0808;
+  color: #fff;
+  padding-bottom: 10rem;
+}
+
+.footer-content {
+  padding-top: 7rem;
+}
+
+footer .footer-content {
+  display: flex;
+  align-items: center;
+}
+
+footer .footer-content li p {
+  width: 20.7rem;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 139.687%; /* 16.762px */
+  letter-spacing: 0.12px;
+
+  margin-bottom: 2.5rem;
+}
+
+footer .footer-content li h3 {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: normal;
+
+  margin-bottom: 8px;
+}
+
+.sayts {
+  display: flex;
+  gap: 1rem;
+}
+
+.sayts i {
+  font-size: 2rem;
+}
+
+.footer-content li:first-child {
+  margin-right: 5rem;
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer__links li a {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: normal;
+
+  opacity: 0.7;
+}
+
+.footer__links li a:hover {
+  opacity: 1;
+}
+
+.footer-content li:nth-child(2) {
+  margin-right: 7rem;
+}
+
+.footer__information li a {
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer__information {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-right: 10rem;
+}
+
+.newsletter h4 {
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 1.3rem;
+}
+
+.newsletter .input-email {
+  display: flex;
+}
+
+.newsletter .input-email input {
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: normal;
+  opacity: 0.6;
+  border: none;
+  border-radius: 5px;
+
+  padding: 2rem 0 2rem 3rem;
+  width: 30rem;
+
+  background: #000;
+}
+
+.newsletter .input-email button {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: normal;
+  transform: translateX(-2rem);
+  border-radius: 5px;
+  background: #d23166;
+
+  padding: 22px 18px;
+
+  transform: ;
+}
+
+.kartalar {
+  margin-top: 1.8rem;
+  display: flex;
+  gap: 1.5rem;
+  font-size: 3rem;
+}
